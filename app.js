@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/AirBnB-Boston-2016-01/Dashboard1?:
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 800,
-    width: 1600,
+    height: 700,
+    width: 1400,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
